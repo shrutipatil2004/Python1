@@ -1,0 +1,45 @@
+print("\n")
+print("                    *! Calculator !*  ")
+print("\n")
+print("* Options:")
+print("\t1.addition\n\t2.substraction\n\t3.multiplication\n\t4.division\n\t5.power\n\t6.floor division\n\t7.remainder")
+print("\n")
+opt=int(input("* Enter option:"))
+print("\n")
+if opt==1:
+  a=int(input("* Enter First number:"))
+  b=int(input("* Enter second number:"))
+  print("\n")
+  print("* Addition is :",a+b)
+elif opt==2:
+  a=int(input("* Enter First number:"))
+  b=int(input("* Enter second number:"))
+  print("\n")
+  print("* Substaction is :",a-b)
+elif opt==3:
+  a=int(input("* Enter First number:"))
+  b=int(input("* Enter second number:"))
+  print("\n")
+  print("* Multipication is :",a*b)
+elif opt==4:
+  a=int(input("* Enter First number:"))
+  b=int(input("* Enter second number:"))
+  print("\n")
+  print("* Division is :",a/b)
+elif opt==5:
+  a=int(input("* Enter First number:"))
+  b=int(input("* Enter second number:"))
+  print("\n")
+  print("* Power is :",a**b)
+elif opt==6:
+  a=int(input("* Enter Base number:"))
+  b=int(input("* Enter Power number:"))
+  print("\n")
+  print("* floor division is :",a//b)
+elif opt==7:
+  a=int(input("* Enter First number:"))
+  b=int(input("* Enter second number:"))
+  print("\n")
+  print("* Remainder is :",a%b)
+else:
+  print("* Invalid option")
